@@ -1,0 +1,173 @@
+body{
+	font-family: sans-serif;
+	background: #ebf9fb;
+}
+
+h1{
+	text-align: center;
+	/*ketebalan font*/
+	font-weight: 300;
+}
+
+.tulisan_login{
+	text-align: center;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: uppercase;
+}
+
+.kotak_login{
+	width: 350px;
+	background: white;
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 30px 20px;
+	box-shadow: 0px 0px 100px 4px #d6d6d6;
+}
+
+label{
+	font-size: 11pt;
+}
+
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+
+.tombol_login{
+	background: #2aa7e2;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+.alert{
+	background: #e44e4e;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	border:1px solid #b32929;
+}
+
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+ margin:0;
+ padding:0;
+}
+#login-form
+{
+ margin-top:70px;
+}
+table
+{
+ border:solid #dcdcdc 1px;
+ padding:25px;
+ box-shadow: 0px 0px 1px rgba(0,0,0,0.2);
+}
+table tr,td
+{
+ padding:15px;
+ //border:solid #e1e1e1 1px;
+}
+table tr td input
+{
+ width:97%;
+ height:45px;
+ border:solid #e1e1e1 1px;
+ border-radius:3px;
+ padding-left:10px;
+ font-family:Verdana, Geneva, sans-serif;
+ font-size:16px;
+ background:#f9f9f9;
+ transition-duration:0.5s;
+ box-shadow: inset 0px 0px 1px rgba(0,0,0,0.4);
+}
+
+table tr td button
+{
+ width:100%;
+ height:45px;
+ border:0px;
+ background:rgba(12,45,78,11);
+ background:-moz-linear-gradient(top, #595959 , #515151);
+ border-radius:3px;
+ box-shadow: 1px 1px 1px rgba(1,0,0,0.2);
+ color:#f9f9f9;
+ font-family:Verdana, Geneva, sans-serif;
+ font-size:18px;
+ font-weight:bolder;
+ text-transform:uppercase;
+}
+table tr td button:active
+{
+ position:relative;
+ top:1px;
+}
+table tr td a
+{
+ text-decoration:none;
+ color:#00a2d1;
+ font-family:Verdana, Geneva, sans-serif;
+ font-size:18px;
+}
+
+/* css for home page  */
+
+*
+{
+ margin:0;
+ padding:0;
+}
+#header
+{
+ width:100%;
+ height:60px;
+ background:rgba(00,11,22,33);
+ color:#9fa8b0;
+ font-family:Verdana, Geneva, sans-serif;
+}
+#header #left
+{
+ float:left;
+ position:relative;
+}
+#header #left label
+{
+ position:relative;
+ top:5px;
+ left:100px;
+ font-size:35px;
+}
+#header #right
+{
+ float:right;
+ position:relative;
+}
+#header #right #content
+{
+ position:relative;
+ top:20px;
+ right:100px;
+ color:#fff;
+}
+#header #right #content a
+{
+ color:#00a2d1;
+}
+
+/* css for home page */
